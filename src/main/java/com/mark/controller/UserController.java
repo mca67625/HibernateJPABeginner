@@ -59,7 +59,7 @@ public class UserController  {
 
          //The session.get(Class, id) returns an object of the specified
         // class that maps a row in the database table. If no row is found,
-        // it returns null.
+        // it returns null
 
          User user = (User) session.get(User.class, userId);
          System.out.println( "FullName: "+ user.getFullName());

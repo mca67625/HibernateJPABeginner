@@ -10,8 +10,8 @@
         <!-- Database connection settings -->
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="connection.url">jdbc:mysql://localhost:3306/usersDb?createDatabaseIfNotExist=true</property>
-        <property name="connection.username">root</property>
-        <property name="connection.password">root</property>
+        <property name="connection.username">***</property><!-- Database connection settings need to add your own MySQL DB Username -->
+        <property name="connection.password">***</property><!-- Database connection settings need to add your own MySQL DB password-->
 
         <!-- MySQL DB dialect -->
         <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
